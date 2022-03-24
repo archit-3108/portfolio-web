@@ -454,8 +454,8 @@ footer{
         height: 68px;
     }
 
-    h1{
-        font-size: 28px;
+    .project__description h3{
+        font-size: 1.5rem;
     }
 
     .about-me__info--para{
@@ -467,12 +467,15 @@ footer{
     }
 
     .project__description--para{
-        font-size: 14px;
+        font-size: 1rem;
     }
 
     .project__description{
         padding-right: 30px;
-        left: 18rem;
+        left: 50%;
+        top: 20%;
+        width: 90%;
+        
     }
 }
 
@@ -484,17 +487,23 @@ footer{
 
     .project__description{
         padding: 0;
-        left: 0;
+        left: 45%;
         width: 100%;
         
     }
+
+    .project__description h3{
+        font-size: 1.2rem;
+    }
+
     .project__description--para{
         display: none;
     }
 
     .project__description--link{
-        display: flex;
-        justify-content: center;
+        /* display: flex; */
+        /* justify-content: center; */
+        left: 40%;
     }
 
     .project__description--title{
@@ -505,6 +514,7 @@ footer{
     .project__description--sub-title{
         text-align: center;
         margin: 12px 0;
+        font-size: 0.6rem;
     }
 
 }
